@@ -1,6 +1,6 @@
-# virtcluster CLI
+# vcluster CLI
 
-`virtcluster` is a command-line interface (CLI) tool for creating and managing virtual Kubernetes clusters. It provides a simple and efficient way to provision Kubernetes environments, allowing users to focus on their applications without worrying about the complexities of cluster management.
+`vcluster` is a command-line interface (CLI) tool for creating and managing virtual Kubernetes clusters. It provides a simple and efficient way to provision Kubernetes environments, allowing users to focus on their applications without worrying about the complexities of cluster management.
 
 ## Features
 
@@ -12,18 +12,18 @@
 - **Cluster Management:** Scale nodes, upgrade Kubernetes versions, apply configuration changes, and restart clusters.
 
 # Create a new virtual cluster
-virtcluster create <cluster-name> --nodes <num-nodes> --node-type <node-type> --kubernetes-version <version>
+vcluster create <cluster-name> --nodes <num-nodes> --node-type <node-type> --kubernetes-version <version>
 
 # List existing virtual clusters
-virtcluster list
+vcluster list
 
 # Get details of a specific virtual cluster
-virtcluster describe <cluster-name>
+vcluster describe <cluster-name>
 
 # Access the virtual cluster
-virtcluster get-credentials <cluster-name>
+vcluster get-credentials <cluster-name>
 
 # Delete a virtual cluster
-virtcluster delete <cluster-name>
+vcluster delete <cluster-name>
 
 Feel free to use and customize this Markdown template for your project's README.md file.
